@@ -24,12 +24,24 @@
     <ClCompile Include="gameClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="introSplash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMenuClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="windowManager.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="gameClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="introSplash.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainMenuClass.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

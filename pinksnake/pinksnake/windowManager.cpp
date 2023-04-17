@@ -29,7 +29,7 @@ void windowManager::addscreen(gameClass* screen)
 
 void windowManager::initialize()
 {
-	currentwindow = new gameClass();
+	currentwindow = new introSplash();
 
 }
 
@@ -64,7 +64,7 @@ void windowManager::theWindow()
 			}
 		}
 
-		window.clear();
+		window.clear(sf::Color::Cyan);
 		window.display();
 	}
 

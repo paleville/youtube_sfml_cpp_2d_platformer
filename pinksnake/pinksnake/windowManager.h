@@ -1,6 +1,7 @@
 #pragma once
 #include"gameClass.h"
-
+#include"introSplash.h"
+#include"mainMenuClass.h"
 class windowManager
 {
 public:
