@@ -29,7 +29,7 @@ void windowManager::addscreen(gameClass* screen)
 
 void windowManager::initialize()
 {
-	currentwindow = new gameClass();
+	currentwindow = new introSplash();
 
 }
 
@@ -48,24 +48,4 @@ void windowManager::draw(sf::Window* window)
 	currentwindow->draw(this->window);
 }
 
-void windowManager::theWindow()
-{
-	sf::RenderWindow window(sf::VideoMode(500, 500), "sfml_screen");
 
-	while (window.isOpen())
-	{
-		sf::Event ev;
-
-		while (window.pollEvent(ev))
-		{
-			if (ev.type == sf::Event::Closed)
-			{
-				window.close();
-			}
-		}
-
-		window.clear();
-		window.display();
-	}
-
-}

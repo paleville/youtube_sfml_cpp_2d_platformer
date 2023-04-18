@@ -20,11 +20,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="gameClass.cpp" />
+    <ClCompile Include="introSplash.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainMenuClass.cpp" />
     <ClCompile Include="windowManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gameClass.h" />
+    <ClInclude Include="introSplash.h" />
+    <ClInclude Include="mainMenuClass.h" />
     <ClInclude Include="windowManager.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

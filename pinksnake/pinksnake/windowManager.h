@@ -1,6 +1,7 @@
 #pragma once
 #include"gameClass.h"
-
+#include"introSplash.h"
+#include"mainMenuClass.h"
 class windowManager
 {
 public:
@@ -23,7 +24,7 @@ public:
 	void update();
 	void draw(sf::Window *window);
 
-	static void theWindow();
+	
 
 
 

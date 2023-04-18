@@ -4,10 +4,12 @@
 int main()
 {
 	windowManager::windowManager();
-	windowManager::theWindow();
+	
 
 	windowManager::getinstance().initialize();
 	windowManager::getinstance().loadFile();
+
+	//windowManager::theWindow();
 
 	return 22;
 }
